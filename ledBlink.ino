@@ -12,8 +12,8 @@ void loop() {
   // put your main code here, to run repeatedly:
   neopixel.setPixelColor(0, random(255), random(255), random(255));
   neopixel.show();
-  delay(1000);
+  delay(500);
   neopixel.setPixelColor(0, 0, 0, 0);
   neopixel.show();
-  delay(1000);
+  delay(500);
 }
